@@ -29,6 +29,7 @@ body{
 }
 .logo__title {
     margin-left: 10px;
+    font-weight: 700;
 }
 /* post */
 .novedades {
@@ -36,13 +37,13 @@ body{
     width: 100vw;
     height: 60vh;
     margin: 20px 0;
-    border-bottom: 1px solid #CCCCCC;
+    border-bottom: 2px solid #CCCCCC;
 }
 .post__title {
     font-size: 28px;
     margin-left: 5px;
     font-family: "poppins";
-    font-weight: 600;
+    font-weight: 700;
     text-align: left;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -62,21 +63,20 @@ body{
 .post__body {
     display: block;
     font-family: "poppins";
-    font-weight: 300;
     margin-left: 5vw;
     justify-content: left;
 }
 .post__date{
     font-family: "poppins";
     font-size:18px;
-    font-weight: 300;
+    font-weight: 400;
     padding-bottom: 1vh;
     padding-top: 1vh;
 }
 .post__title2 {
     display: flex;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     flex-direction: column;
     margin: inherit;
 }
@@ -92,7 +92,7 @@ body{
 .post__logo{
     display: flex;
     padding: 3%;
-    width: 600px;
+    width: 500px;
     height: 36px;
     gap: 0px;
     opacity: 0px;
@@ -120,7 +120,7 @@ body{
     height: 10vh;
     top: 3.5rem;
     max-width: 1280px;
-    margin-left: 0.7vw;
+    margin-left: 4vw;
     padding:2rem;
     
 }
@@ -161,6 +161,7 @@ body{
 }
 .card__title--post {
     font-size:20px ;
+    font-weight: 700;
 }
 .card__footer--post{
     margin-top: 1rem;
@@ -191,7 +192,7 @@ body{
     font-size: 19px;
     margin-left: 5px;
     font-family: "poppins";
-    font-weight: 600;
+    font-weight: 700;
     text-align: left;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -299,7 +300,7 @@ body{
 }
 .container__card--categorias{
     position: absolute;
-    top: 870px;
+    top: 910px;
     left: 860px;
     margin-left: 1vw;
     align-items: center;
@@ -313,7 +314,7 @@ body{
     height: 17vh;
     padding: 1rem;
     margin-top: 0.4rem;
-    margin-bottom:2rem ;
+    margin-bottom:3rem ;
 }
 .container__title{
     font-size: 28px;
@@ -363,15 +364,15 @@ body{
 }
 
 .box--react {
-    background-color: #282b32;
+    background-color: #292C33;
 }
 
 .box--vue{
-    background-color: #67c770;
+    background-color: #67C770;
 }
 
 .box--bootstrap {
-    background-color: #563d7c;
+    background-color: #563D7C;
 }
 
 .verMas{
